@@ -1,0 +1,40 @@
+.checkout__div{
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checkout__title{
+    width: 60vw;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.checkout__img{
+    width: 50px;
+}
+.checkout__table{
+    width: 70vw;
+}
+.checkout__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.checkout__btn{
+    background: yellowgreen;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 20px;
+}
+.checkout__total{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 700px){
+    .checkout__div{
+        margin-left: 80px;
+    }
+}
